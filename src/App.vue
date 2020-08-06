@@ -95,12 +95,15 @@ export default {
             >
           </p>
           <p>
-            Once you hit Start, 10 different "pools of candidates" with varying
-            sizes will be generated randomly, and the algorithm will
-            automatically run. It will skip the first
+            You can select the number of pools that will be generated (default
+            value is 100), it can be between 5 to 500. Once you hit Start, the
+            "pools of candidates" with varying sizes will be generated randomly,
+            and the algorithm will automatically run. It will skip the first
             <span class="code text-primary">n/e</span> regardless of their
             qualification score, afterwards it will select the first candidate
-            that is better than what it already saw.
+            that is better than what it already skipped through, or the last
+            candidate if no one is better. Note that the higher the number of
+            pools, the more accurate the results will be.
             <br />
             You will be able to see the following stats about each pool:
           </p>
