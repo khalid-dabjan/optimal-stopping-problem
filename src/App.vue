@@ -54,7 +54,7 @@ export default {
       <div class="px-20 py-4">
         <div class="border-b border-primary py-10">
           <h1 class="font-bold text-4xl text-center py-8">
-            Optimal Stopping (secretry problem)
+            Optimal Stopping (secretary problem)
           </h1>
           <div class="py-8">
             <img src="@/assets/stop.jpg" alt="stop sign" class="rounded" />
@@ -85,28 +85,28 @@ export default {
             >)
           </p>
           <p class="mb-4">
-            This page is aimed at demonestrating the
+            This page is aimed at demonstrating the
             <span class="code text-primary">n/e</span> rule that states:
             <span class="code"
-              >"...The optimal stopping rule prescribes always rejecting the
+              >"... The optimal stopping rule prescribes always rejecting the
               first n/e applicants that are interviewed and then stopping at the
               first applicant who is better than every applicant interviewed so
               far."</span
             >
           </p>
           <p>
-            Once you hit Start, 10 different "pools of candidates" with variant
+            Once you hit Start, 10 different "pools of candidates" with varying
             sizes will be generated randomly, and the algorithm will
             automatically run. It will skip the first
             <span class="code text-primary">n/e</span> regardless of their
-            qualifications score, afterwards it will select the first caldidate
+            qualification score, afterwards it will select the first candidate
             that is better than what it already saw.
             <br />
             You will be able to see the following stats about each pool:
           </p>
           <ul class="list-disc py-4">
             <li>
-              The numbber of candidates
+              The number of candidates
               <span class="code text-primary">n</span>.
             </li>
             <li>
@@ -165,7 +165,7 @@ export default {
                     h490.667c5.891-0.002,10.665-4.779,10.664-10.67C511.993,500.461,511.886,499.595,511.676,498.752z"
                   />
                 </svg>
-                The algorithm's calculated best candidated
+                The algorithm's calculated best candidates
               </div>
             </li>
             <li>
@@ -194,7 +194,7 @@ export default {
             </li>
           </ul>
           <p>
-            Lastly you'll be able to see the total duccess rate: that we've had,
+            Lastly, you'll be able to see the total success rate that we've had,
             which should be
             <span class="code text-primary">~37%</span>.
           </p>
