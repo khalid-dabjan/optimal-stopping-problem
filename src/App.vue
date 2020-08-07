@@ -324,9 +324,13 @@ export default {
             based in Dubai, UAE. Check my github over there 👉
             <br />
             <br />
-            this is an open source project hosted on <a href="#">github</a>
+            this is an open source project hosted on
+            <a href="https://khalid-dabjan.github.io/optimal-stopping-problem/"
+              >github</a
+            >
             <br />
-            For any questions or comments you can reach me on <a href="mailto:khalid.dabjan@gmail.com">khalid.dabjan@gmail.com</a>
+            For any questions or comments you can reach me on
+            <a href="mailto:khalid.dabjan@gmail.com">khalid.dabjan@gmail.com</a>
           </div>
           <div class="flex flex-col items-end">
             <a href="https://github.com/khalid-dabjan" target="_blank">
