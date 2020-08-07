@@ -325,7 +325,7 @@ export default {
             <br />
             <br />
             this is an open source project hosted on
-            <a href="https://khalid-dabjan.github.io/optimal-stopping-problem/"
+            <a href="https://github.com/khalid-dabjan/optimal-stopping-problem"
               >github</a
             >
             <br />
