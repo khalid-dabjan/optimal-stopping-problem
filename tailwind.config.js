@@ -2,6 +2,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      fontFamily: {
+        body: ["Roboto", "sans-serif"]
+      },
       colors: {
         primary: "#FF8C42",
         grey: "#FFFFFC",
