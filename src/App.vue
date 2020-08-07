@@ -51,9 +51,9 @@ export default {
 <template>
   <div id="app">
     <div class="container mx-auto">
-      <div class="px-20 py-4">
+      <div class="px-6 lg:px-20 py-4">
         <div class="border-b border-secondary py-10">
-          <h1 class="font-bold text-4xl text-center py-8">
+          <h1 class="font-bold text-2xl md:text-4xl text-center py-8">
             Optimal Stopping (secretary problem)
           </h1>
           <div class="py-8">
@@ -108,24 +108,24 @@ export default {
             You will be able to see the following stats about each pool:
           </p>
           <ul class="list-disc py-4">
-            <li>
+            <li class="mb-2">
               The number of candidates
               <span class="code text-primary">n</span>.
             </li>
-            <li>
+            <li class="mb-2">
               The minimum score of the pool
               <span class="code text-primary">minS</span>.
             </li>
-            <li>
+            <li class="mb-2">
               The maximum score of the pool
               <span class="code text-primary">maxS</span>.
             </li>
-            <li>
+            <li class="mb-2">
               Weather or not the algorithm was successful at selecting the best
               candidates <span class="code text-green">Success</span> or
               <span class="code text-red">Fail</span>.
             </li>
-            <li>
+            <li class="mb-2">
               <div class="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +148,7 @@ export default {
                 A candidate that has been skipped
               </div>
             </li>
-            <li>
+            <li class="mb-2">
               <div class="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ export default {
                 The algorithm's calculated best candidates
               </div>
             </li>
-            <li>
+            <li class="mb-2">
               <div class="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -317,14 +317,16 @@ export default {
       </div>
     </div>
     <footer class="bg-secondary text-white">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-4 md:px-0">
         <div class="flex justify-between py-16">
-          <div>
+          <div class="mr-6">
             Hello all, my name is Khalid and I'm a full stack web developer
             based in Dubai, UAE. Check my github over there 👉
-            <br>
-            <br>
+            <br />
+            <br />
             this is an open source project hosted on <a href="#">github</a>
+            <br />
+            For any questions or comments you can reach me on <a href="mailto:khalid.dabjan@gmail.com">khalid.dabjan@gmail.com</a>
           </div>
           <div class="flex flex-col items-end">
             <a href="https://github.com/khalid-dabjan" target="_blank">
@@ -341,18 +343,18 @@ export default {
           </div>
         </div>
         <div class="text-sm text-right py-2">
-        Icons made by
-        <a
-          href="https://www.flaticon.com/authors/pixel-perfect"
-          title="Pixel perfect"
-          target="_blank"
-          >Pixel perfect</a
-        >
-        from
-        <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">
-          www.flaticon.com</a
-        >
-      </div>
+          Icons made by
+          <a
+            href="https://www.flaticon.com/authors/pixel-perfect"
+            title="Pixel perfect"
+            target="_blank"
+            >Pixel perfect</a
+          >
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">
+            www.flaticon.com</a
+          >
+        </div>
       </div>
     </footer>
   </div>
